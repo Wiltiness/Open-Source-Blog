@@ -1,7 +1,7 @@
 export const SITE = {
-  website: "https://astropages-bilingual.pages.dev", // replace this with your deployed domain
-  author: "tosaki",
-  profile: "https://t0saki.com",
+  website: "https://log.wiltiness.dpdns.org", // replace this with your deployed domain
+  author: "Wiltiness",
+  profile: "https://log.wiltiness.dpdns.org",
   desc: "A bilingual blog based on Astro Paper",
   title: "AstroPaper Bilingual",
   ogImage: "astropaper-og.jpg",
@@ -14,7 +14,7 @@ export const SITE = {
   editPost: {
     enabled: true,
     text: "Edit page",
-    url: "https://github.com/t0saki/AstroPages-Bilingual/edit/main/",
+    url: "https://github.com/Wiltiness/Open-Source-Blog/edit/main/",
   },
   dynamicOgImage: true,
   dir: "ltr", // "rtl" | "auto"
