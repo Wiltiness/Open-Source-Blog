@@ -36,10 +36,10 @@ export const ui = {
     "month.12": "十二月",
     
     // Home page hero
-    "hero.greeting": "你好",
-    "hero.description": "这是一个简洁、响应式、无障碍且对 SEO 友好的 Astro 博客主题。支持明暗模式切换，可自定义配色方案。",
+    "hero.greeting": "你好，我是 Wiltiness",
+    "hero.description": "如你所见，这是一个博客，希望你能在这里找到你想要的东西，无论只是来看看我的日常或者在这里找技术文章",
     "hero.cta": "阅读博客文章或查看",
-    "hero.socialLinks": "社交链接：",
+    "hero.socialLinks": "个人社交平台：",
     
     // Sections
     "section.featured": "精选文章",

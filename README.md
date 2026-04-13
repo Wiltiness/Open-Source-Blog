@@ -34,7 +34,7 @@
 克隆此仓库并安装依赖：
 
 ```bash
-git clone https://github.com/t0saki/AstroPages-Bilingual.git
+git clone https://github.com/Wiltiness/Open-Source-Blog.git
 cd AstroPages-Bilingual
 npm install
 
