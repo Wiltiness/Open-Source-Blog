@@ -8,8 +8,6 @@ tags: []
 ---
 一开始，我是想要给我的Windows电脑配置Windows Hello Passkey来登录Outlook之类的M365应用，但是一直注册不成功，提示如下图所示：
 
-![](Microsoft-Learn-Document-photo.png)
-
 (图源:[Microsoft Learn Document](https://learn.microsoft.com/en-us/answers/questions/5839154/end-user-unable-to-create-passkey-for-entra-id-acc))
 
 ### 登录到Microsoft Entra ID
