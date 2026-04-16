@@ -8,8 +8,6 @@ tags: []
 ---
 一开始，我是想要给我的Windows电脑配置Windows Hello Passkey来登录Outlook之类的M365应用，但是一直注册不成功，提示如下图所示：
 
-![](Microsoft-Learn-Document-photo.png)
-
 (图源:[Microsoft Learn Document](https://learn.microsoft.com/en-us/answers/questions/5839154/end-user-unable-to-create-passkey-for-entra-id-acc))
 
 ### 登录到Microsoft Entra ID
@@ -17,27 +15,22 @@ tags: []
 然后，通过咕噜咕噜到处搜索了一番之后，查到需要去Microsoft Entra ID调整配置文件，步骤如下\
 \
 1.打开[Microsoft Entra ID](https://entra.microsoft.com/auth/login/),登录**全局管理员**账号\
-![](%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202026-04-16%20111215.png)
 
 2.进入主页
-
-![](%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202026-04-16%20111315.png)
 
 ### 配置通行密钥策略
 
 ##### 常规密钥类型
 
 3.选择"Entra ID → 身份验证方法",页面框架大致如下：\
-![](%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202026-04-16%20111504.png)
 
 注：若此前从未进行过配置，则"密钥 (FIDO2)"的"已启用"栏目会为"否"。
 
 4.点击"密钥 (FIDO2)"，点击“配置”选项栏
 
-![](image.png)\
+\
 原始状态应当不会有任何配置文件，要先勾选"允许自助服务设置"（允许用户在个人信息页面自行注册或者撤销PassKey）\
 然后添加配置文件（如下图所示）：\
-![](%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202026-04-16%20112122.png)
 
 这里的几个选项，填写基本标准如下：\
 名称:自行填写,没有特殊意义\
