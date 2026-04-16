@@ -1,6 +1,7 @@
 ---
 title: 配置Microsoft Entra ID平台以允许企业用户注册通行密钥
 pubDatetime: 2026-04-16
+description: 本文详细介绍了如何在 Microsoft Entra ID 平台中启用 FIDO2 安全密钥登陆策略，允许员工使用通行密钥实现无密码登录
 draft: false
 featured: false
 tags: []
